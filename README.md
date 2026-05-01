@@ -1,48 +1,8 @@
 # Point Transformer V3
 Implementation of the paper **_Point Transformer V3: Simpler, Faster, Stronger_** 
-[ Backbone ] [PTv3] - [ [arXiv](https://arxiv.org/abs/2312.10035) ] [ [Bib](https://xywu.me/research/ptv3/bib.txt) ]
-
 <div align='left'>
 <img src="assets/teaser.png" alt="teaser" width="800" />
 </div>
-
-## Highlights
-- *Apr 05, 2024*: PTv3 is selected as one of the 90 **Oral** presentations (3.3% accepted paper, 0.78% submissions) by CVPR'24!
-- *Feb 28, 2024*: PTv3 is accepted by CVPR'24 🎉🎉🎉. 
-
-## Citation
-If you find _PTv3_ useful to your research, please cite the work as an acknowledgment. 
-```bib
-@inproceedings{wu2024ptv3,
-    title={Point Transformer V3: Simpler, Faster, Stronger},
-    author={Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang},
-    booktitle={CVPR},
-    year={2024}
-}
-
-@inproceedings{wu2024ppt,
-    title={Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training},
-    author={Wu, Xiaoyang and Tian, Zhuotao and Wen, Xin and Peng, Bohao and Liu, Xihui and Yu, Kaicheng and Zhao, Hengshuang},
-    booktitle={CVPR},
-    year={2024}
-}
-
-@inproceedings{wu2022ptv2,
-    title={Point transformer V2: Grouped Vector Attention and Partition-based Pooling},
-    author={Wu, Xiaoyang and Lao, Yixing and Jiang, Li and Liu, Xihui and Zhao, Hengshuang},
-    booktitle={NeurIPS},
-    year={2022}
-}
-
-@misc{pointcept2023,
-    title={Pointcept: A Codebase for Point Cloud Perception Research},
-    author={Pointcept Contributors},
-    howpublished={\url{https://github.com/Pointcept/Pointcept}},
-    year={2023}
-}
-```
-
-
 
 ## Installation
 
@@ -149,9 +109,6 @@ sh scripts/train.sh -g 4 -d s3dis -c semseg-pt-v3m1-0-rpe -n semseg-pt-v3m1-0-rp
 # PPT joint training (ScanNet + S3DIS + Structured3D) and evaluate in ScanNet
 sh scripts/train.sh -g 8 -d s3dis -c semseg-pt-v3m1-1-ppt-extreme -n semseg-pt-v3m1-1-ppt-extreme
 
-# More configs and exp records for PTv3 will be available soon.
-```
-
 ### 2.Outdoor semantic segmentation
 | Model | Benchmark | Additional Data | Num GPUs | Val mIoU | Config | Tensorboard | Exp Record |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -193,5 +150,34 @@ sh scripts/train.sh -g 4 -d nuscenes -c semseg-pt-v3m1-0-base -n semseg-pt-v3m1-
 # Scratched Waymo
 sh scripts/train.sh -g 4 -d waymo -c semseg-pt-v3m1-0-base -n semseg-pt-v3m1-0-base
 
-# More configs and exp records for PTv3 will be available soon.
+## Citation
+If you find _PTv3_ useful to your research, please cite the work as an acknowledgment. 
+```bib
+@inproceedings{wu2024ptv3,
+    title={Point Transformer V3: Simpler, Faster, Stronger},
+    author={Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang},
+    booktitle={CVPR},
+    year={2024}
+}
+
+@inproceedings{wu2024ppt,
+    title={Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training},
+    author={Wu, Xiaoyang and Tian, Zhuotao and Wen, Xin and Peng, Bohao and Liu, Xihui and Yu, Kaicheng and Zhao, Hengshuang},
+    booktitle={CVPR},
+    year={2024}
+}
+
+@inproceedings{wu2022ptv2,
+    title={Point transformer V2: Grouped Vector Attention and Partition-based Pooling},
+    author={Wu, Xiaoyang and Lao, Yixing and Jiang, Li and Liu, Xihui and Zhao, Hengshuang},
+    booktitle={NeurIPS},
+    year={2022}
+}
+
+@misc{pointcept2023,
+    title={Pointcept: A Codebase for Point Cloud Perception Research},
+    author={Pointcept Contributors},
+    howpublished={\url{https://github.com/Pointcept/Pointcept}},
+    year={2023}
+}
 ```
