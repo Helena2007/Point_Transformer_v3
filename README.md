@@ -1,4 +1,8 @@
 # Point Transformer V3
+This repository is based on the original implementation from: https://github.com/Pointcept/PointTransformerV3
+All credit goes to the original authors.
+This version is maintained for study and experimentation purposes.
+
 Implementation of the paper **_Point Transformer V3: Simpler, Faster, Stronger_** 
 <div align='left'>
 <img src="assets/teaser.png" alt="teaser" width="800" />
