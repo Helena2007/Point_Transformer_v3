@@ -11,7 +11,7 @@ Implementation of the paper **_Point Transformer V3: Simpler, Faster, Stronger_*
 - *Feb 28, 2024*: PTv3 is accepted by CVPR'24 🎉🎉🎉. 
 
 ## Citation
-If you find _PTv3_ useful to your research, please cite our work as an acknowledgment. (੭ˊ꒳​ˋ)੭✧
+If you find _PTv3_ useful to your research, please cite the work as an acknowledgment. 
 ```bib
 @inproceedings{wu2024ptv3,
     title={Point Transformer V3: Simpler, Faster, Stronger},
