@@ -1,6 +1,6 @@
 # Point Transformer V3
 Implementation of the paper **_Point Transformer V3: Simpler, Faster, Stronger_** 
-[ Backbone ] [PTv3] - [ [arXiv](https://arxiv.org/abs/2312.10035) ] [ [Bib](https://xywu.me/research/ptv3/bib.txt) ] [ [Code](https://github.com/Pointcept/Pointcept) ]  
+[ Backbone ] [PTv3] - [ [arXiv](https://arxiv.org/abs/2312.10035) ] [ [Bib](https://xywu.me/research/ptv3/bib.txt) ]
 
 <div align='left'>
 <img src="assets/teaser.png" alt="teaser" width="800" />
